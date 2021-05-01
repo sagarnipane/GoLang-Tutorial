@@ -15,7 +15,15 @@ func main() {
 		"Sunday":    7,
 	}
 	fmt.Println(weekdays["Sunday"]) // 7
-	for weeweekdays in d:
-		
+	for index, day := range weekdays {
+		fmt.Println("Key: ", day, "\t\t Value:", index)
+	}
+	// Key:  4                  Value: Thursday
+	// Key:  5                  Value: Friday
+	// Key:  6                  Value: Saturday
+	// Key:  7                  Value: Sunday
+	// Key:  1                  Value: Monday
+	// Key:  2                  Value: Tuesday
+	// Key:  3                  Value: Wednesday
 
 }
